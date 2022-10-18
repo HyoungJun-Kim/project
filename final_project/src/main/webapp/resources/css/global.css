@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Black Han Sans';
+    src: url(/resources/font/BlackHanSans-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'GimpoGothicRegular00';
+	src: url(/resources/font/cts2688_file4.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'GimpoGothicBold00';
+	src: url(/resources/font/cts2688_file2.ttf) format('truetype');
+}
+
+:root{
+    --mainColor : rgb(24, 24, 24);
+    --subColor : rgb(59, 59, 59);
+    --sub2Color : rgb(40, 40, 40);
+    --borderColor : rgba(209, 209, 209, 0.486);
+    --fontColor : rgb(142, 206, 231); 
+    --subFontColor : rgb(209, 209, 209);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.EmphasisSpan{
+	color: var(--fontColor);
+	
+}
+
+/*버튼 */
+.formBtns {
+	width: 150px;
+	height: 50px;
+	background-color: var(--sub2Color);
+	transition: .3s;
+	color: var(--subFontColor);
+	cursor: pointer;
+	font-family: 'GimpoGothicBold00';
+	font-size: 1.1rem;
+	/* margin-bottom: 0.5rem; */
+	border: none;
+}
+
+.formBtns:hover {
+	background-color: var(--mainColor);
+	
+}
+
+/*폼 텍스트 인풋 공통 */
+.formInputs {
+	width: 300px;
+	height: 50px;
+	/* margin-bottom: 0.5rem; */
+	padding-left: 0.5rem;
+	background-color: var(--sub2Color);
+	color: white;
+	font-family: 'GimpoGothicBold00';
+	transition: .3s;
+	border: none;
+	outline: none;
+}
+
+.formInputs:focus{
+	background-color: var(--mainColor);
+}
+
+.errorContainer{
+	
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+/*숨기기 */
+.noneClass{
+	display: none;
+}
+
+
+

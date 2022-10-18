@@ -1,0 +1,161 @@
+
+
+header{
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    display: flex;
+    background-color: var(--subColor);
+    border-bottom: 0.5px solid var(--borderColor);
+    font-family: 'Black Han Sans'; 
+}
+
+#logOutBtn{
+	cursor: pointer;
+	transition: .3s;
+}
+
+#logOutBtn:hover{
+	color: red;
+}
+
+header a{
+	color: white;
+    margin-left: 1rem;
+	text-decoration: none;
+	transition: .3s;
+}
+
+header a:hover{
+	color: red;
+	transform: translateY(-10%);
+}
+
+#loginName:hover{
+	color: red;
+	transform: translateY(-10%);
+}
+
+header .logo{
+    width: 30%;
+    height: 100%;
+    color: var(--fontColor);
+    /* font-size: 3rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid blue; */
+    cursor: pointer;
+}
+
+
+
+header .logo h1{
+	color: var(--fontColor);
+	transition: .3s;
+}
+
+header .logo h1:hover{
+	transform: translateY(-10%);
+}
+
+/* header .logo span{
+    color : white;
+} */
+
+header .menu{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid white; */
+}
+
+header .menu a{
+    
+    margin-left: 1rem;
+}
+
+/* header .menu a:hover{
+	color: red;
+} */
+
+header .login{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid crimson; */
+    
+}
+
+header .login a{
+    
+    transition: .3s;
+    
+}
+/* 
+header .login a:hover{
+	color: red;
+} */
+
+main{
+    width: 100%;
+    min-width: 1200px;
+    background-color: var(--subColor);
+}
+
+footer{
+    width: 100%;
+    min-width: 1200px;
+    height: 200px;
+    border-top: 0.5px solid var(--borderColor);
+    background-color: var(--subColor);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Black Han Sans'; 
+}
+
+footer p{
+	font-family: 'GimpoGothicBold00'; 
+}
+
+footer .footer_logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /*  font-size : 3rem; */
+    /* border: 3px solid white; */
+    
+}
+
+footer .footer_logo h1{
+  	color: var(--fontColor);
+	transition: .3s;
+	cursor: pointer;
+} 
+footer .footer_logo h1:hover{
+  	transform: translateY(-10%);
+} 
+
+/* footer .footer_logo h1 span{
+    color: white;
+} */
+
+footer .footer_content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    color: var(--subFontColor);
+    /* border:3px solid red; */
+}
+
