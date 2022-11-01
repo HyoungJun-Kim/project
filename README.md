@@ -1,1 +1,1 @@
-# project
+classpath:/sqlmap/**/*_SQL.xml
